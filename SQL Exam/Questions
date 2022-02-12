@@ -1,0 +1,38 @@
+1. Write a SQL query which will sort out the customer and their grade 
+who made an order. Every customer must have a grade and be served 
+by at least one seller, who belongs to a region.
+
+2. Write a query for extracting the data from the order table for the 
+salesman who earned the maximum commission.
+
+3. From orders retrieve only ord_no, purch_amt, ord_date, ord_date, 
+salesman_id where salesman’s city is Nagpur(Note salesman_id of 
+orderstable must be other than the list within the IN operator).
+
+4. Write a query to create a report with the order date in such a way 
+that the latest order date will come last along with the total purchase 
+amount and the total commission for that date is (15 % for all 
+sellers).
+
+5. Retrieve ord_no, purch_amt, ord_date, ord_date, salesman_id from 
+Orders table and display only those sellers whose purch_amt is 
+greater than average purch_amt.
+
+6. Write a query to determine the Nth (Say N=5) highest purch_amt from
+Orders table.
+
+7. What are Entities and Relationships?
+
+8. Print customer_id, account_number and balance_amount, condition 
+that if balance_amount is nil then assign transaction_amount for 
+account_type = "Credit Card".
+
+9. Print customer_id, account_number, balance_amount, conPrint 
+account_number, balance_amount, transaction_amount from 
+Bank_Account_Details and bank_account_transaction for all the 
+transactions occurred during march, 2020 and april, 2020.
+
+10. Print all of the customer id, account number, balance_amount,
+transaction_amount from bank_cutomer, bank_account_details and 
+bank_account_transactions tables where excluding all of their 
+transactions in march, 2020 month. 
